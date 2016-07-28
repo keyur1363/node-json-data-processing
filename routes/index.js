@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    var course = req.query.course;
+    var course_id = req.query.course_id;
     var result= null;
    var data = {
         "CS551": {
@@ -34,7 +34,7 @@ router.get('/', function(req, res, next) {
     
     //console.log(data.length);
     for(var a in data){
-        if (a == course) {
+        if (a == course_id) {
             result = data[a];
             }
     }
