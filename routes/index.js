@@ -8,29 +8,29 @@ router.get('/', function(req, res, next) {
    var data = {
         "CS551": {
             1: {
-              
+                'course': "CS551",
              'homework_id': 1,
             'score': 84
             },
             2: {
-              
+                'course': "CS551",
                 'homework_id': 2,
                 'score': 93
             },
             3: {
-              
+                'course': "CS551",
                 'homework_id': 3,
                 'score': 88
             }
         },
         "CS557": {
             1: {
-              
+                'course': "CS557",
                 'homework_id': 1,
                 'score': 90 
             },
             2: {
-            
+                'course': "CS557",
                 'homework_id': 2,
                 'score': 85
             }
